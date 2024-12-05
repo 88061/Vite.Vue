@@ -1,7 +1,7 @@
 /* 根节点样式设置 Root node style settings */
 html,
 body,
-body #vite-react {
+body #vite-vue {
   width: 100vw;
   height: 100vh;
   color: var(--text-color);

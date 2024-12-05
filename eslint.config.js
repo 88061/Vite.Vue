@@ -2,6 +2,7 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
+import AutoImport from "./@types/auto-import-eslint.js";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -13,6 +14,9 @@ export default [
   {
     files: ["**/*.vue"],
     languageOptions: { parserOptions: { parser: tseslint.parser } },
+  },
+  {
+    languageOptions: AutoImport,
   },
   {
     rules: {

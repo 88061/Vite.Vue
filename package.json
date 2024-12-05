@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "test": "tsc -b && vite build  --mode test",
+    "test": "vue-tsc -b && vite build --mode test",
     "preview": "vite preview",
     "prepare": "husky install"
   },
@@ -33,6 +33,7 @@
     "rollup-plugin-visualizer": "^5.12.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.17.0",
+    "unplugin-auto-import": "^0.18.6",
     "vite": "^6.0.1",
     "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^2.1.10"
