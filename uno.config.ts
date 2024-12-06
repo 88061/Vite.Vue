@@ -1,9 +1,13 @@
 import { defineConfig, presetUno, transformerVariantGroup } from "unocss";
-
 export default defineConfig({
   theme: {
     colors: {
       primary: "var(--primary-color)",
+    },
+    breakpoints: /** default (min-width: 639.9px), if you want max -> lt-sm */ {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
     },
   },
   presets: [

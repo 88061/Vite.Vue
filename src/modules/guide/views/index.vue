@@ -59,7 +59,7 @@ const onOpen = () => {
     <div
       :class="
         clsx(
-          'w-[580px] h-[50px] relative rounded-full',
+          'w-145 h-12.5 relative rounded-full',
           'mx-auto mb-8',
           'flex justify-center items-center',
           'shadow-md shadow-primary cursor-pointer',
